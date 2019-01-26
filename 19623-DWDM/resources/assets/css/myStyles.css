@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21/jan/2019, 22:59:06
+    Author     : Carlos Bicho
+*/
+
+/* GLOBAL
+-------------------------------------------------- */
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+/*Logo
+--------------------------------------------------*/
+  .logo img  {
+  width: 20%;
+  display: block;
+  z-index: 2;
+  position: absolute; 
+  }
+  
+  /*Carrousel
+--------------------------------------------------*/
+  .carousel-item a {
+   color: white; 
+  }
+
+/* Mobile
+ -------------------------------------------------- */
+@media screen and (max-width: 768px) {
+    h4{
+        font-size:14px;
+    }
+    h5{
+        font-size:12px;
+    }
+
+}
+
+/* Google Maps
+ -------------------------------------------------- */
+.map-container-6{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-6 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+    /*Contact Form
+  --------------------------------------------------*/
+.info p{
+font-size: 13px;
+}
